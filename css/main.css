@@ -9,6 +9,7 @@
     --primary-light-red: hsl(0, 100%, 63%);
     --neutral-very-dark-cyan: hsl(192, 100%, 9%);
     --neutral-pale-blue: hsl(207, 100%, 98%);
+    --box-shadow: rgba(0, 37, 46, .13);
 }
 
 * {

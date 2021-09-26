@@ -16,7 +16,7 @@
     font-size: 10.5px;
     color: var(--primary-light);
     border: 1px solid var(--primary-light);
-    padding: 4px 15px;
+    padding: 5px 18px;
     border-radius: 20px;
     text-decoration: none;
 }
@@ -57,10 +57,13 @@
 }
  .cta {
      margin: 15px 0;
-     font-size: 12.5px;
+     font-size: 12px;
      font-weight: 600;
      padding: 10px 40px;
      border: none;
      background: var(--primary-pink);
      color: var(--neutral-pale-blue);
+     /* box-shadow: 1px 1px 5px var(--neutral-very-dark-cyan); */
+     /* box-shadow: rgba(0, 0, 0, .15) 0px 4px 3px; */
+     box-shadow: var(--box-shadow) 0px 4px 3px;
  }
