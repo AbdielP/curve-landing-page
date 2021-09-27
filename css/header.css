@@ -72,14 +72,16 @@
  /* Cards */
  .header__cards {
      width: 100%;
+     margin-top: 25px;
      display: flex;
      flex-direction: column;
      align-items: center;
      /* background: chocolate; */
  } .header__card {
-     width: 50%;
+     width: 60%;
      display: flex;
      flex-direction: column;
+     margin: 30px 0;
      /* background: chartreuse; */
  }
 
@@ -88,16 +90,36 @@
  }
 
  .header__card > figure > img {
-     width: 12%;
+     width: 30px;
  }
 
  .header__card__text {
-     font-size: 3.5rem;
-     /* font-weight: 700; */
+     margin: 0;
+     padding: 0;
+     font-size: 3.7rem;
+     font-weight: 700;
      font-family: var(--font-open-sans);
      color: var(--neutral-very-dark-cyan);
  }
 
+ .header__cards > .header__card:nth-child(2) {
+     margin-top: 55px;
+ }
+
  .header__paragrap {
-     /* background: chartreuse; */
+     font-family: var(--font-open-sans);
+     letter-spacing: .5px;
+     font-size: 15px;
+     text-align: center;
+     margin-top: 10px;
+ }
+
+ .header__paragrap--color {
+     color: #95a0a8;
+ }
+
+ .wave {
+     width: 100%;
+     height: 100px;
+     background-image: url('../images/bg-section-top-mobile-1.svg');
  }
