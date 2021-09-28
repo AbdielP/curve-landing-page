@@ -1,0 +1,27 @@
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__card {
+    display: flex;
+    flex-direction: column;
+} .main__card--pale-blue {
+    background: var(--neutral-pale-blue);
+}
+
+.main__card__images {
+    width: 100%;
+    /* background: rebeccapurple; */
+} .main__card__image {
+    width: 80%;
+}
+
+.wave {
+    width: 100%;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+} .wave--top-1 {
+    background-image: url('../images/bg-section-top-mobile-1.svg');
+}
