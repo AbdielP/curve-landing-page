@@ -8,12 +8,14 @@
     height: 100px;
     background-repeat: no-repeat;
     background-size: cover;
-} .wave--top-1 {
+}.wave--top-1 {
     background-image: url('../images/bg-section-top-mobile-1.svg');
 }.wave--top-2 {
     background-image: url('../images/bg-section-top-mobile-2.svg');
 } .wave--bottom-1 {
     background-image: url('../images/bg-section-bottom-mobile-1.svg');
+}.wave--bottom-2 {
+    background-image: url('../images/bg-section-bottom-mobile-2.svg');
 }
 
 .main__card {
@@ -45,4 +47,9 @@
     font-size: 13px;
     margin: 12px 0 35px 0;
     line-height: 20px;
+}
+
+.subtitle {
+    /* font-family: var(--font-poppins); */
+    font-weight: ;
 }
