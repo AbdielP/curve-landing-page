@@ -28,6 +28,10 @@
     background: var(--neutral-pale-blue);
 }
 
+.main__card--ready {
+    margin-bottom: 220px;
+}
+
 .main__card__images {
     width: 100%;
     display: flex;
