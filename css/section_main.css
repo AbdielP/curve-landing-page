@@ -14,9 +14,10 @@
     background-image: url('../images/bg-section-top-mobile-2.svg');
 } .wave--bottom-1 {
     background-image: url('../images/bg-section-bottom-mobile-1.svg');
-    background-size: inherit;
 }.wave--bottom-2 {
     background-image: url('../images/bg-section-bottom-mobile-2.svg');
+}.wave--inherit {
+    background-size: inherit;
 }
 
 .main__card {
@@ -34,6 +35,15 @@
     margin: 75px 0;
 } .main__card__image {
     width: 70%;
+}
+
+/* USERS */
+.main__card__images--users {
+    margin-top: 25px;
+}
+
+.main__card__text--users {
+    margin-bottom: 60px;
 }
 
 .main__card__text {
