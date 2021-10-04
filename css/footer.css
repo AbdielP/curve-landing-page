@@ -6,8 +6,6 @@
 }
 
 .wave--footer {
-    height: 53px;
-    background-size: inherit;
     background-image: url('../images/bg-footer-top-mobile.svg');
 }
 
