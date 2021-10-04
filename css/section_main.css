@@ -23,7 +23,6 @@
 .main__card {
     display: flex;
     flex-direction: column;
-    /* background-color: red!important; */
 } .main__card--pale-blue {
     background: var(--neutral-pale-blue);
 }
