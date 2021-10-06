@@ -67,3 +67,33 @@
 .subtitle {
     margin: 100px 0 40px 0;
 }
+
+@media (min-width: 712px) {
+    .main__card {
+        flex-direction: row-reverse;
+    }
+
+    .main > .main__card:nth-child(4n) {
+        flex-direction: row;
+    }
+
+    .main__card__images {
+        width: 50%;
+    } .main__card__image {
+        width: 60%;
+    }
+    .main__card__text {
+        width: 50%;
+        padding: 7%;
+        margin: auto;
+        text-align: left;
+    }
+
+    .main__card__text h3 {
+        font-size: 2.5rem;
+    }
+
+    .main__card__text p {
+        font-size: 1rem;
+    }
+}
