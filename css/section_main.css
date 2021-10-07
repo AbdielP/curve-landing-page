@@ -49,7 +49,7 @@
 .main__card__text {
     font-family: var(--font-poppins);
     color: var(--neutral-very-dark-cyan);
-    padding: 0 40px;
+    /* padding: 0 40px; */
     font-weight: 700;
     text-align: center;
 } .main__card__text > p {
@@ -75,15 +75,11 @@
         flex-direction: row;
     }
 
-    /* .main__card:nth-child(8) {
-        background-color: crimson;
-        justify-content: center;
-    } */
-
     .main__card--ready {
-        background-color: crimson;
+        /* background-color: crimson; */
+        margin-bottom: 60px;
     }.subtitle {
-        margin: 0;
+        margin: 0 0 40px 0;
     }
 
     .main__card__images {
@@ -96,10 +92,14 @@
         padding: 7%;
         margin: auto;
         text-align: left;
+    }.main__card__text--ready {
+        width: 100%;
+        text-align: center;
     }
 
     .main__card__text h3 {
         font-size: 2.5rem;
+        margin-bottom: 25px;
     }
 
     .main__card__text p {

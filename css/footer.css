@@ -30,6 +30,7 @@
 }
 
 .footer__newsletter__input {
+    /* max-width: 300px; */
     border: none;
     border-radius: 6px;
     padding: 16px;
