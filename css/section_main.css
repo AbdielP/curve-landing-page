@@ -105,4 +105,14 @@
     .main__card__text p {
         font-size: 1rem;
     }
+
+    .wave--top-1 {
+        background-image: url('../images/bg-section-top-desktop-1.svg');
+    }.wave--top-2 {
+        background-image: url('../images/bg-section-top-desktop-2.svg');
+    } .wave--bottom-1 {
+        background-image: url('../images/bg-section-bottom-desktop-1.svg');
+    }.wave--bottom-2 {
+        background-image: url('../images/bg-section-bottom-desktop-2.svg');
+    }
 }

@@ -143,4 +143,8 @@
     .footer__social_networks {
         margin-top: 55px;
     }
+
+    .wave--footer {
+        background-image: url('../images/bg-footer-top-desktop.svg');
+    }
 }
