@@ -103,6 +103,7 @@
 @media (min-width: 712px) {
     .footer {
         flex-direction: row-reverse;
+        padding: 3rem 0
     }
 
     .container__newsletter, .container__info {

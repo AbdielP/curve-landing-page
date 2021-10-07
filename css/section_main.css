@@ -78,13 +78,24 @@
     .main__card--ready {
         margin-bottom: 60px;
     }.subtitle {
-        margin: 0 0 40px 0;
+        font-size: 2.4rem;
+        margin: 0 0 60px 0;
+    }
+
+    .main__card:nth-child(2) {
+        padding-top: 2rem;
+    }.main__card:nth-child(4) {
+        padding: 8rem 0 3rem;
+    }.main__card:nth-child(6) {
+        padding-top: 3rem;
+    }.main__card:nth-child(8) {
+        padding: 4rem 0;
     }
 
     .main__card__images {
         width: 50%;
     } .main__card__image {
-        width: 60%;
+        width: 75%;
     }
     .main__card__text {
         width: 50%;
