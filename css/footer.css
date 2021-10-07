@@ -31,6 +31,11 @@
     margin-bottom: 20px;
 }
 
+.footer__input__container {
+    display: flex;
+    flex-direction: column;
+}
+
 .footer__newsletter__input {
     border: none;
     border-radius: 6px;
@@ -103,22 +108,39 @@
     .container__newsletter, .container__info {
         width: 50%;
         margin: auto;
-        /* box-sizing: border-box; */
     }.container__info {
         padding-left: 5rem;
-        /* padding-right: 19rem; */
-        /* background-color: aqua; */
     }.container__newsletter {
         padding-right: 5rem;
     }
 
     .footer__logo__text {
-        /* width: 315px; */
         width: 50%;
     }
 
     .footer__newsletter__text {
-        /* width: 350px; */
         width: 56%;
+    }
+
+    .footer__input__container {
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .footer__newsletter__input {
+        width: 52%;
+        min-width: 200px;
+    }
+
+    .footer__newsletter__button {
+        margin-top: 0;
+        margin-left: 35px;
+        width: 26%;
+        min-width: 100px;
+    }
+
+    .footer__social_networks {
+        margin-top: 55px;
     }
 }
