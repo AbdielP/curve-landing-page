@@ -40,6 +40,7 @@
     border: none;
     border-radius: 6px;
     padding: 16px;
+    cursor: pointer;
 }
 
 .footer__newsletter__button {
@@ -54,6 +55,9 @@
     border: none;
     border-radius: 6px;
     margin-top: 15px;
+    cursor: pointer;
+}.footer__newsletter__button:hover {
+    background: var(--primary-light);
 }
 
 .footer__logo {
@@ -98,6 +102,7 @@
     font-size: 23px;
 }.footer__social_networks > i{
     margin-right: 8px;
+    cursor: pointer;
 }
 
 @media (min-width: 712px) {
@@ -145,7 +150,15 @@
         margin-top: 55px;
     }
 
+    .footer__social_networks > i{
+        margin-right: 15px;
+        font-size: 2rem;
+    }.footer__social_networks > i:hover {
+        color: #02c5fc;
+    }
+
     .wave--footer {
         background-image: url('../images/bg-footer-top-desktop.svg');
     }
+    
 }
