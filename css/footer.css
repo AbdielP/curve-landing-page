@@ -43,6 +43,10 @@
     cursor: pointer;
 }
 
+.footer__newsletter__input--error {
+    border: 1px solid var(--primary-light-red);
+}
+
 .footer__newsletter__button {
     align-self: flex-end;
     font-family: var(--font-open-sans);
