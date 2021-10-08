@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/cssflexbox-bem-methodology-javascript-mobilefirst-workflow-v-trO_L4I)
 - Live Site URL: [Add live site URL here](https://abdielp.github.io/curve-landing-page/)
 
 ## My process
